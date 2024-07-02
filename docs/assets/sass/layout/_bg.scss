@@ -31,7 +31,8 @@
 			@include vendor('transition-delay', '#{_duration(intro)}');
 			background-image:		linear-gradient(to top, #{_palette(bg-overlay)}, #{_palette(bg-overlay)}),
 									url('../../images/overlay.png');
-			background-size:		auto;
+			background-size:		auto,
+									2000px 2000px;
 			background-position:	center,
 									center;
 			background-repeat:		no-repeat,
